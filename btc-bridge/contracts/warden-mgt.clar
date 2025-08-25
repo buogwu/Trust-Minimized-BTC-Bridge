@@ -1,10 +1,7 @@
 ;; Trust-Minimized BTC Bridge - Warden Management Contract
 ;; Manages the registration, staking, and governance of bridge wardens
 
-;; -----------------
 ;; Constants / Errors
-;; -----------------
-;; REPLACE THIS with your admin principal (the deployer/owner you want).
 (define-constant CONTRACT-OWNER tx-sender) ;; Set to deployer
 
 (define-constant ERR_UNAUTHORIZED (err u100))
